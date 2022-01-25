@@ -1,0 +1,103 @@
+baseURL = 'https://ebuildy.github.io/cv/'
+languageCode = 'fr-fr'
+title = 'CV de Thomas Decaux, Senior Data analyst & developer'
+theme = 'hugo-orbit-theme'
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles.css"
+
+# Meta
+    description = ""
+    author = "Thomas Decaux"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Thomas Decaux"
+        tagline = "senior data analyst & devop & developer"
+        avatar = "moi.jpg"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: ebuildy@gmail.com"
+        title = "ebuildy@gmail.com"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+33663181696"
+        title = "+33663181696"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//datatok.io"
+        title = "datatok.io"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/thomas-decaux-80b35690"
+        title = "linkedin.com/in/thomas-decaux-80b35690"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/ebuildy"
+        title = "github.com/ebuildy"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/datatok"
+        title = "github.com/datatok"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Master degree"
+        college = "ISEN Toulon, France"
+        dates = "2005 - 2008"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "French"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Professional"
+
+# Main body sections
+
+
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = ""

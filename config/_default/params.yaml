@@ -1,0 +1,360 @@
+experiences:
+  enable: true
+  icon: "fa-briefcase"
+  title: "Experiences"
+
+summary:
+  enable: true
+  icon: "fa-user"
+  title: "Career Profile"
+  summary: |
+    ### + de 15 ans d'expériences dans des projets web 
+    #### innovants et à haute volumétrie
+
+    Après math sup & spé, une école d'ingénieur, je pars 1 an à Londres en tant que développeur web.
+
+    Je reviens en France, m'installe à Aix en provence et continue de travailler comme développeur / devop.
+
+    Curieux et passionné par le web, les data mashup, je créée une application qui aboutira sur la création de Qwant, le moteur de recherche respectueux de la vie privée.
+
+    S'en suit 10 ans de collaboration dans des sujets variés comme:
+    * développement web (php, nodeJS)
+    * data avec elasticsearch et spark
+    * devop avec gitlab CI
+    * infrastructure avec kubernetes
+
+    Durant ces 10 ans j'ai également travaillé en tant que consultant pour d'autres sociétés & projets.
+
+jobs:
+  list:
+  - position: "Tech Lead - devop / data"
+    dates: "2019 - Present"
+    company: "Qwant, France"
+    image: 
+      url: images/k8s.png
+      style: "float:right"
+    details: |
+      #### expert elasticsearch / data / kubernetes
+
+      Conseil elasticsearch:
+      * architecture cluster
+      * topologie index / shard
+      * mapping
+      * tuning java
+
+      Conseil kubernetes:
+      * accompagnement des devs
+      * best practices (polaris / network-policy / ...)
+      * monitoring & alerting: prometheus / grafana
+
+      Migration vers kubernetes:
+      * formation des équipes
+      * réalisation migration stack analytics
+
+      Je maintiens également la stack analytics:
+      * développement java, mise à jour gradle/java/spark
+      * infra : mise à jour elasticsearch
+
+    technos:
+    - kubernetes
+    - elasticsearch
+    - ansible
+    - helm
+    - apache spark
+
+  - position: SRE
+    dates: "2019"
+    company: "Qwant, France"
+    image: 
+      url: images/apm.svg
+      style: "float:right"
+    details: |
+      #### Site Reliability Engineering - haute volumétrie
+
+      Mise en place d'outils & culture pour monitorer la qualité de services:
+      * elastic APM
+      * prometheus/grafana
+
+      Déploiement dans kubernetes de la plateforme:
+      * cluster 12 nodes elasticsearch
+      * sécurité : TLS inter-nodes & auth LDAP
+
+      Intégration dans les applications métiers & culturation des équipes dev.
+      
+      Optimisation continue de l'ingestion & du stockage.
+
+      Participation corrections de bugs avancés:
+      * bug connections HTTP lors d'un déploiement
+      * bug heap nodeJS
+      * mauvais équilibrage cluster kubernetes
+
+    technos:
+    - elastic APM
+    - elasticsearch
+    - kibana
+    - prometheus
+    - grafana
+    - alert manager
+
+  - position: Formateur
+    dates: 2021 - mission de 14 jours
+    company: Bewizyu, France
+    details: |
+      #### animateur d'une formation à distance pour 12 participants
+
+      * containerization avec Docker
+      * elasticsearch / logstash / kibana
+      * apache Spark
+      
+      Ainsi qu'un projet type Travaux Pratique dans le cloud Azure et Google.
+
+    technos:
+    - docker
+    - elasticsearch
+    - logstash
+    - kibana
+    - spark
+    - azure
+
+  - position: Engineering Manager
+    dates: 2020 - mission de 18 jours
+    company: Bewizyu, France
+    details: |
+      #### projet de refonte complète de plateforme pour Lyon Parc Auto
+
+      J'ai réalisé l'architecture services, validé les technos et travaillé sur l'intégration continue et la production.
+
+      Déploiement depuis gitlabCI sur une VM chez le client, les applications tournent avec Docker.
+
+      Monitoring avec prometheus & grafana.
+
+      Le reverse proxy Traefik est la porte d'entrée de la plateforme.
+      
+
+    technos:
+    - php / laravel
+    - gitlab CI
+    - docker
+    - Traefik
+    - prometheus/grafana
+
+  - position: Data Analyst & tech lead
+    dates: 2018 - 2019
+    company: Qwant, France
+    image: 
+      url: images/spark.png
+      style: "float: right"
+    details: |
+      #### ajout d'une partie "cold storage" pour la solution d'analytic Qwant
+
+      L'idée est de prolonger le stockage à plusieurs années, en utilisant Hadoop.
+      J'ai réalisé l'architecture, son déploiement, et le développement d'outils ETL.
+
+      Création d'outils ETL en Java, avec le framework Apache Spark, 
+      pour exporter de la donnée elasticsearch vers HDFS, au format Parquet.
+      L'outil permet aussi de faire l'inverse, d'exporter de la donnée HDFS,
+      via des requêtes SQL, dans elasticsearch, ce qui permet de séparer la couche data-viz d'Hadoop.
+
+      Aujourd'hui (2021), ce sont + de 200 job ETL qui tournent chaque nuit sur cette plateforme.
+
+    technos:
+    - hadoop / HDFS / YARN
+    - elasticsearch
+    - apache Spark
+    - apache Zeppelin
+    - java
+
+  - position: startup'er
+    dates: 2015
+    company: Kinoulink, France
+    image: 
+      url: images/kinoulink.jpg
+      style: "float:left;margin-right:10px"
+    details: |
+      #### création startup Kinoulink
+
+      Kinoulink est un espace de stockage en ligne pour vos photos et vidéos avec un objet connecté à votre télévision.
+
+      L'idée était de permettre à tous d'accèder au contenu média des clouds et réseaux sociaux, depuis son canapé !
+
+      L'aventure fut formidable, beaucoup de rencontres, conseils ...
+
+      Campagne Ulule: https://fr.ulule.com/kinoulink/
+
+    technos:
+    - php
+    - symfony
+    - mysql
+    - aws
+
+  - position: Data Analyst & tech lead
+    dates: 2015 - 2018
+    company: Qwant, France
+    image:
+      url: images/elasticsearch.svg
+      style: "float:right"
+    details: |
+      #### lead de l'analytic business de Qwant
+
+      From scratch et on-premise, la solution doit être capable de réceptionner 1.000.000 de logs par jour,
+      avec des points à 1000 logs par secondes. J'ai réalisé entièrement l'architecture tech et son déploiement.
+      En + de la tech, j'ai travaillé avec toutes les équipes pour une parfaite intégration:
+      * dev pour la production des logs
+      * business pour la consommation des logs
+
+      Création d'un cluster ES de 12 nodes - tuning & monitoring.
+
+      Documentation réalisée avec Hugo.io
+
+      Aujourd'hui (2021) ce chiffrage est à multiplier par 200!
+
+    technos:
+    - rabbitMQ
+    - HAProxy
+    - elasticsearch
+    - logstash
+    - kibana
+
+  - position: Développeur / Infra / startup'er
+    dates: 2012 - 2015
+    company: Qwant, France
+    details: |
+      Lors d'un voyage TGV pour Paris, je réalise une application mobile de recherche sur les réseaux sociaux, 
+      qui va donner ensuite naissance à Qwant, le moteur de recherche.
+
+      La société est créée, nous sommes 2 tech et nous gérons:
+      * développement applications en php, design, front et backend
+      * intégration moteur de recherche propriétaire
+      * infrastructure 
+      * monitoring
+
+  - position: Développeur
+    dates: 2011 - 2012
+    company: DNXCorp, France
+    details: |
+      DNXCorp est un groupe spécialisé dans le développement et la valorisation d'audience sur Internet.
+
+      Je suis intervenu durant 6 mois dans la branche "divertissement pour adultes", pour accompagner le développement 
+      du site internet principal et la réalisation d'outils CRM .
+    technos:
+    - php
+    - symfony
+
+  - position: Développeur
+    dates: 2009 - 2010
+    company: Comrz, Londres
+    details: |
+      2 ans d'expériences en tant que développeur pour une startup londonienne dans le ecommerce: comrz.
+    technos:
+    - java
+    - adobe flex
+    - jquery
+    - coldfusion
+    - english
+
+projects:
+  enable: true
+  icon: fa-archive
+  title: Projects
+  intro: |
+    Passionné par le concept de l'open-source, dès que possible je met mon travail (et talent ^_^) à disposition:
+
+  list:
+  - title: dataTok
+    url: https://datatok.github.io
+    image:
+      url: images/datatok.png
+    tagline: |
+      Communauté experts data / devop / infra autour des technos elasticsearch , spark , k8s
+
+      Héberge des projets open-sources
+
+  - title: elastic-copy
+    url: https://github.com/datatok/elastic-copy
+    tagline: |
+      Pour copier des aliases / index d'une instance elasticsearch à une autre.
+      
+      La différence avec elasticdump ? elastic-copy est codé en golang, et fonctionne en parrallèle ! 
+      Selon votre topologie de shards, il sera X fois + rapide.
+
+  - title: Helm chart Zeppelin & RabbitMQ
+    url: https://github.com/datatok/helm-charts
+    tagline: |
+      Pour déployer sur kubernetes rabbitMQ ou Zeppelin, avec un Helm chart.
+
+  - title: lighthouse bench CLI
+    url: https://github.com/ebuildy/lighthouse-urls-bench
+    tagline: |
+      Pour lancer depuis son PC des tests lighthouse (analyze page web),
+      les résultats sont stockés dans elasticsearch, data-viz avec kibana
+
+  - title: keployr
+    url: https://github.com/ebuildy/ansible-keployr
+    tagline: |
+      Ensemble de recettes Ansible pour créer des applications argoCD 
+
+
+skills:
+- icon: fa-rocket
+  title: Skills / infra & devop
+  items:
+  - 
+    title: "Kubernetes & container"
+    level: "90%"
+  -
+    title: "argoCD & argoWorklow"
+    level: "80%"
+  -
+    title: "ansible"
+    level: "80%"
+  -
+    title: "gitlab CI / github actions"
+    level: "85%"  
+- icon: fa-rocket
+  title: Skills / data
+  items:
+  -
+    title: "Apache Spark / Hadoop eco-system"
+    level: "80%"
+  -
+    title: "elasticsearch"
+    level: "90%"
+  -
+    title: "elatic suite"
+    level: "85%"
+  -
+    title: "data viz"
+    level: "70%"
+  -
+    title: "SQL Analytic"
+    level: "85%"
+- icon: fa-rocket
+  title: Skills / code
+  items:
+  -
+    title: "java"
+    level: "80%"
+  -
+    title: "php"
+    level: "95%"
+  -
+    title: "python"
+    level: "60%"
+  -
+    title: "golang"
+    level: "40%"
+  - 
+    title: "javascript"
+    level: "80%"
+
+
+interests:
+  enable: true
+  title: Intérêts
+  list:
+  - mes 2 enfants
+  - le vin, rosé et rouge
+  - la plage, faire du bateau
+  - les voyages
+  - tennis / ping-pong / beach volley
+  - feria de bayonne
