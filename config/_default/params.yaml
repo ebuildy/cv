@@ -11,8 +11,7 @@ summary:
     ### + de 15 ans d'expériences dans des projets web 
     #### innovants et à haute volumétrie
 
-    Après math sup & spé, une école d'ingénieur, je pars 1 an à Londres en tant que développeur web.
-
+    Après math sup & spé, une école d'ingénieur, je pars 1 an à Londres en tant que développeur web. 
     Je reviens en France, m'installe à Aix en provence et continue de travailler comme développeur / devop.
 
     Curieux et passionné par le web, les data mashup, je créée une application qui aboutira sur la création de Qwant, le moteur de recherche respectueux de la vie privée.
@@ -23,7 +22,8 @@ summary:
     * devop avec gitlab CI
     * infrastructure avec kubernetes
 
-    Durant ces 10 ans j'ai également travaillé en tant que consultant pour d'autres sociétés & projets.
+    Durant ces 10 ans j'ai également travaillé en tant que consultant pour d'autres sociétés et monter plusieurs startups, 
+    parce que "qui peut le +, peut le -"
 
 jobs:
   list:
@@ -40,10 +40,11 @@ jobs:
       * architecture cluster
       * topologie index / shard
       * mapping
-      * tuning java
+      * tuning java - monitoring
 
       Conseil kubernetes:
       * accompagnement des devs
+      * philosophie git-ops, infra as code
       * best practices (polaris / network-policy / ...)
       * monitoring & alerting: prometheus / grafana
 
@@ -51,16 +52,25 @@ jobs:
       * formation des équipes
       * réalisation migration stack analytics
 
+      Culturation:
+      * utilisation de commitizen
+      * documentation as rituel
+
       Je maintiens également la stack analytics:
       * développement java, mise à jour gradle/java/spark
       * infra : mise à jour elasticsearch
+      * intégration équipes dev & business
 
     technos:
     - kubernetes
+    - argoCD
+    - argoWorkflow
+    - ceph S3
     - elasticsearch
     - ansible
     - helm
     - apache spark
+    - commitizen
 
   - position: SRE
     dates: "2019"
