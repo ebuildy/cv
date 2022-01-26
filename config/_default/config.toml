@@ -48,12 +48,6 @@ disable404 = true
         title = "+33663181696"
 
         [[params.contact.list]]
-        class = "website"
-        icon = "fa-globe"
-        url = "//datatok.io"
-        title = "datatok.io"
-
-        [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
         url = "//linkedin.com/in/thomas-decaux-80b35690"
@@ -70,6 +64,12 @@ disable404 = true
         icon = "fa-github"
         url = "//github.com/datatok"
         title = "github.com/datatok"
+
+        [[params.contact.list]]
+        class = "stack-overflow"
+        icon = "fa-stack-overflow"
+        url = "//stackoverflow.com/users/447344/thomas-decaux"
+        title = "stackoverflow.com/u/447344"
 
     # Education section
     [params.education]

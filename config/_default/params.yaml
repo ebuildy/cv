@@ -11,19 +11,28 @@ summary:
     ### + de 15 ans d'expériences dans des projets web 
     #### innovants et à haute volumétrie
 
-    Après math sup & spé, une école d'ingénieur, je pars 1 an à Londres en tant que développeur web. 
-    Je reviens en France, m'installe à Aix en provence et continue de travailler comme développeur / devop.
+    Après math sup & spé, une école d'ingénieur, je pars 1 an à Londres en tant que développeur web dans une startup pleine d'énergie. 
+    Je reviens en France, à Aix en provence et continue de travailler comme développeur / devop pour une PME côtée.
 
-    Curieux et passionné par le web, les data mashup, je créée une application qui aboutira sur la création de Qwant, le moteur de recherche respectueux de la vie privée.
+    Inventif, curieux et passionné par le web, les data mashup, je créée une application qui aboutira sur la création de Qwant, le moteur de recherche respectueux de la vie privée.
 
     S'en suit 10 ans de collaboration dans des sujets variés comme:
-    * développement web (php, nodeJS)
+    * développement web (react, php, nodeJS)
     * data avec elasticsearch et spark
-    * devop avec gitlab CI
+    * devop avec gitlab CI, github, ansible
     * infrastructure avec kubernetes
+
+    Avec pour chaque projet la dimension "monitoring", "automatisation", "documentation", "culturation", "formation".
 
     Durant ces 10 ans j'ai également travaillé en tant que consultant pour d'autres sociétés et monté plusieurs startups, 
     parce que "qui peut le +, peut le -"
+
+    Aujourd'hui je revendique:
+    * une parfaite connaissance dans les projets web, data
+    * savoir travailler seul ou en équipe
+    * l'accomplissement de centaines de projets web
+    * la contribution dans une dizaine de projets open-source
+    * 20.000 points de réputation sur StackOverflow
 
 jobs:
   list:
@@ -148,6 +157,21 @@ jobs:
     - Traefik
     - prometheus/grafana
 
+  - position: Consultant
+    dates: 2019 - mission de 18 jours
+    company: SubitoLabs, Aix en Provence
+    image:
+      url: "images/subitolabs.jpg"
+      style: "float:left;width:64px;margin-right:20px"
+    details: |
+      Diverses missions de développement web pour des grands comptes comme Thalasseo et xCams.
+
+      Refonte complète du front, en vuejs, du site thalasseo.
+    technos:
+    - php
+    - symfony
+    - vuejs
+
   - position: Data Analyst & tech lead
     dates: 2018 - 2019
     company: Qwant, France
@@ -175,8 +199,29 @@ jobs:
     - java
 
   - position: startup'er
+    dates: 2016
+    company: Bizlunch, Marseille
+    details: |
+      #### création startup Bizlunch
+
+      Bizlunch, optimiser ses pauses repas en développant son réseau professionnel
+
+      J'ai réalisé une application pour que les employés d'une même entreprise se rencontrent le temps de la pause déjeuner.
+    
+    technos:
+    - php
+    - nodeJS
+    - symfony
+    - mongodb
+    - elasticsearch
+    - aws
+    - angularJS
+
+
+
+  - position: startup'er
     dates: 2015
-    company: Kinoulink, France
+    company: Kinoulink, Toulon
     image: 
       url: images/kinoulink.jpg
       style: "float:left;margin-right:10px"
@@ -189,7 +234,8 @@ jobs:
 
       L'aventure fut formidable, beaucoup de rencontres, conseils ...
 
-      Campagne Ulule: https://fr.ulule.com/kinoulink/
+      * levée de fonds de 30.000 € au-près de la BPI
+      * campagne Ulule: https://fr.ulule.com/kinoulink/
 
     technos:
     - php
@@ -228,6 +274,9 @@ jobs:
   - position: Développeur / Infra / startup'er
     dates: 2012 - 2015
     company: Qwant, France
+    image:
+      url: images/qwant.png
+      style: "float:right"
     details: |
       Lors d'un voyage TGV pour Paris, je réalise une application mobile de recherche sur les réseaux sociaux, 
       qui va donner ensuite naissance à Qwant, le moteur de recherche.

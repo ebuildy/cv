@@ -12,7 +12,7 @@
         </div><!--//meta-->
         <div class="details">
             {{- with .image }}
-                <img src="{{ .Site.BaseURL }}{{ .url }}" style="max-width: 128px; {{ .style }}" />
+                <img src="{{ .Site.BaseURL }}{{ .url }}" style="max-width: 128px; {{ .style | safeCSS }}" />
             {{- end }}
             <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
         </div><!--//details-->
@@ -22,6 +22,7 @@
         {{ end }}
         </div>
     </div><!--//item-->
+    <br/>
     {{ end }}
 
 </section><!--//section-->
