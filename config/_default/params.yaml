@@ -417,3 +417,16 @@ interests:
   - les voyages
   - tennis / ping-pong / beach volley
   - feria de bayonne
+
+qualifications:
+  enable: true
+  list:
+  - badge: https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/46135867
+    title: Contributeur elastic bronze
+    date: 2022
+    tags: ["elasticsearch", "helm", "kubernetes"]
+
+badges:
+  enable: true
+  list:
+  - url: https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/46135867

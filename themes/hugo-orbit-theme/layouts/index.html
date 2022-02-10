@@ -23,6 +23,10 @@
     {{ partial "projects.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.qualifications.enable }}
+    {{ partial "qualifications.html" . }}
+    {{ end }}
+
     {{ range .Site.Params.skills }}
 	{{ partial "skills.html" . }}
     {{ end }}

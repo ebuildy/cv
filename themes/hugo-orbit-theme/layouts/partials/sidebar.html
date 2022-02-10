@@ -22,4 +22,8 @@
 		{{ partial "interests.html" . }}
 		{{ end }}
 
+		{{ if .Site.Params.badges.enable }}
+		{{ partial "badges.html" . }}
+		{{ end }}
+
         </div><!--//sidebar-wrapper-->
